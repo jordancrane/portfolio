@@ -2,9 +2,29 @@ html {
     font-family: Raleway, sans-serif;
 }
 
-.header {
+h1 {
+    font-size: 48px;
     text-align: center;
+    color: black;
+    text-shadow: 0 2px #333;
     text-transform: uppercase;
+}
+
+.header {
+    position: fixed;
+    background: #fff;
+    z-index: 99;
+    width: 100%;
+    top: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: grey;
 }
 
 .nav {
@@ -13,10 +33,29 @@ html {
 
 .nav li {
     text-align: center;
-    font-weight: 100;
-    padding: 20px 0px;
+    font-weight: 200;
+    font-size: 24px;
+    padding: 20px 20px;
     text-transform: uppercase;
     margin-right: 20px;
     margin-left: 20px;
     display: inline-block;
+}
+
+.main {
+    text-align: center;
+    text-color: white;
+    text-shadow: 0 2px black;
+    font-weight: 400;
+    margin: auto;
+    background-image: url("../images/servers.jpeg");
+    background-position: center top;
+    background-size: cover;
+    padding: 375px 0; 
+    margin: 30px;
+}
+
+.main ul {
+    list-style-type: none;
+    display: inline block;
 }
