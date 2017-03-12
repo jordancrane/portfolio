@@ -6,13 +6,13 @@ h1 {
     font-size: 48px;
     text-align: center;
     color: black;
-    text-shadow: 0 2px #333;
-    text-transform: uppercase;
+    /*text-shadow: 0 2px #333;*/
 }
 
 .header {
     position: fixed;
     background: #fff;
+    background: rgba(255, 255, 255, 0.9);
     z-index: 99;
     width: 100%;
     top: 0px;
@@ -43,19 +43,24 @@ a:hover {
 }
 
 .main {
-    text-align: center;
-    text-color: white;
-    text-shadow: 0 2px black;
-    font-weight: 400;
+    color: white;
+    text-shadow: 0 1px black;
+    font-weight: 200;
+    font-size: 24px;
     margin: auto;
     background-image: url("../images/servers.jpeg");
     background-position: center top;
     background-size: cover;
+    border-radius: 30px;
     padding: 375px 0; 
     margin: 30px;
 }
 
 .main ul {
+    text-align: left;
     list-style-type: none;
     display: inline block;
+    max-width: 18%;
+    line-height: 200%;
+    margin: auto;
 }
